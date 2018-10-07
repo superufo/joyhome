@@ -7,7 +7,7 @@ adb forward tcp:8888 tcp:8888
 reverse:反向代理  Phone->PC  
 adb reverse tcp:8097 tcp:8097  
 adb reverse tcp:8081 tcp:8081
-	8081端口的服务就是React Native项目的一个本地服务器
+8081端口的服务就是React Native项目的一个本地服务器
 用于提供JSBundle包和一些静态资源
 
 2.	npm install -g react-devtools   
@@ -114,31 +114,5 @@ npm docs 模块名
 npm list   
 当然我们也可以限制输入的模块层级，
 例如  npm list --depth=0
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-    
-
-
-
+  
 
