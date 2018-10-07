@@ -107,10 +107,10 @@ npm view 模块名 engines
 检查包是否已经过时  此命令会列出所有已经过时的包，可以及时进行包的更
 npm outdated
 
-	  打开某个模块的文档 
+打开文档 
 npm docs 模块名
 
-	  查看当前已经安装的模块  
+查看已经安装模块 
 npm list   
 当然我们也可以限制输入的模块层级，
 例如  npm list --depth=0
