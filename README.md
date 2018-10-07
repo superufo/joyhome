@@ -80,31 +80,22 @@ react-native搭建新项目    react-native  init joyhome
       安装   npm install babel-preset-react-native@^4.0.1 --save-dev  --save	  
 查看项目中模块所在的目录  
 npm root
-
       查看全局安装的模块所在目录  
 npm root –g
-
 查看当前项目中应用的某个模块的版本号的命令为 
 npm list 模块名 version
-
-	查看一个模块的所有信息  
+查看一个模块的所有信息  
 npm view 模块名
-
 查看某个包对于各种包的依赖关系   
 npm view 模块名 dependencies
-
       查看包的源文件地址 
 npm view 模块名 repository.url
-
 查看当前模块依赖的node最低版本号  
 npm view 模块名 engines
-
 检查包是否已经过时  此命令会列出所有已经过时的包，可以及时进行包的更
 npm outdated
-
 打开某个模块的文档 
 npm docs 模块名
-
 查看当前已经安装的模块  
 npm list   
 当然我们也可以限制输入的模块层级，
