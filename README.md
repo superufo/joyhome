@@ -1,5 +1,4 @@
 # joyhome001
-joyhome
 
 
 1.	 forward:  PC->Phone 作为Client客户端,可以任意访问Phone上的 Server 服务器  
